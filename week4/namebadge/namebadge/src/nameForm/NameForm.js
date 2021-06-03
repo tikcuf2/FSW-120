@@ -8,7 +8,11 @@ class NameForm extends React.Component {
         this.state = {
             firstName: "",
             lastName: "",
-            
+            email: "",
+            placeOfBirth: "",
+            phone: "",
+            favoriteFood: "",
+            textArea: "",
             nameBadges: []
         }
     }
@@ -23,13 +27,21 @@ class NameForm extends React.Component {
         let newBadge = {
             firstName: this.state.firstName,
             lastName: this.state.lastName,
-         
+            email: this.state.email,
+            placeOfBirth: this.state.placeOfBirth,
+            phone: this.state.phone,
+            favoriteFood: this.state.favoriteFood,
+            textArea: this.state.textArea
         }
         this.setState({ 
             nameBadges : [ newBadge, ...this.state.nameBadges ], 
             firstName: "",
             lastName: "",
-           
+            email: "",
+            placeOfBirth: "",
+            phone: "",
+            favoriteFood: "",
+            textArea: ""
         })
     }
 
@@ -58,11 +70,60 @@ class NameForm extends React.Component {
                             minLength="3"
                             required={true}
                         />
-                     
-                      
-                      
-                      <div>
-                      
+                        <input
+                            className="input-left"
+                            type="email"
+                            name="email"
+                            value={this.state.email} 
+                            placeholder="Email" 
+                            onChange={this.handleChange}
+                            minLength="3"
+                            required={true}
+                        />
+                        <input
+                            className="input-right"
+                            type="text"
+                            name="placeOfBirth"
+                            value={this.state.placeOfBirth} 
+                            placeholder="Place Of Birth" 
+                            onChange={this.handleChange}
+                            minLength="3"
+                            required={true}
+                        />
+                        <input
+                            className="input-left"
+                            type="tel"
+                            name="phone"
+                            value={this.state.phone} 
+                            placeholder="Phone"
+                            pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
+                            onChange={this.handleChange}
+                            minLength="3"
+                            required={true}
+                        />
+                        <input
+                            className="input-right"
+                            type="text"
+                            name="favoriteFood"
+                            value={this.state.favoriteFood} 
+                            placeholder="Favorite Food" 
+                            onChange={this.handleChange}
+                            minLength="3"
+                            required={true}
+                        />
+                        <div className="text-area">
+                            <textarea
+                                className="text-box"
+                                form="badgeArea"
+                                name="textArea"
+                                placeholder="Tell us about yourself!"
+                                value={this.state.textArea}
+                                rows="10"
+                                cols="100"
+                                onChange={this.handleChange}
+                                minLength="3"
+                                required={true}
+                            />
                             <button className="submit-button">Submit</button>
                         </div>
                       

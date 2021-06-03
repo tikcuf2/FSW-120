@@ -10,7 +10,11 @@ class NameList extends Component {
                 <NameCard 
                     firstName={badge.firstName}
                     lastName={badge.lastName}
-                   
+                    email={badge.email}
+                    placeOfBirth={badge.placeOfBirth}
+                    phone={badge.phone}
+                    favoriteFood={badge.favoriteFood}
+                    textArea={badge.textArea}
                 />
             );
         })
