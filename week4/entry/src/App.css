@@ -1,0 +1,29 @@
+  
+
+html {
+  background-color: black;
+  padding-top: 1%;
+  font-size: 40px;
+}
+div {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
+  background-color:black;
+  width: auto;
+  padding-top: 1%;
+
+}
+h1, li{
+  color:white;
+  font-size: 30px;
+  text-align: left;
+  width: 600px;
+
+}
+
+
+li {
+  background-color: rgb(230, 230, 230);
+}
