@@ -1,0 +1,39 @@
+  
+img {
+    
+    width: 150px;
+    height: 150px;
+    border: 5px solid black;
+   margin-right: 2px;
+
+}
+
+h4 {
+     font-family: 'Courier New', Courier, monospace;
+     font-size: 30px;
+     color:  whitesmoke;
+     background: black;
+     list-style: block;
+}
+h2 {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color:whitesmoke;
+    background: black;
+    
+    
+}
+
+.heroBox {
+    background-color:black;
+    justify-content: center;
+    box-shadow: white;
+    border-style: solid;
+    border-color: aliceblue;
+    border-width: 2px;
+    
+   
+    
+  
+    
+}

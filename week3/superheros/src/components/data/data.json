@@ -1,0 +1,65 @@
+
+[{
+    "id": 1,
+    "name":"Martin Luther King Jr :",
+    "show": "History News",
+    "catchPhrase": "I Had a Dream ! ",
+    "imageName": "https://housing.umich.edu/wp-content/uploads/2018/07/mlk.jpg"
+},
+{
+    "id": 2,
+    "name": "Mother Teresa :",
+    "show": "Silence",
+    "catchPhrase": "Peace begins with a smile",
+    "imageName": "https://www.franciscanmedia.org/sites/default/files/styles/blog_image/public/2020-07/Screen%20Shot%202020-07-28%20at%208.45.36%20AM.png?itok=NeDM7awo"
+},
+{
+    "id": 3,
+    "name": "Mahatma Gandhi :",
+    "show": "Peace News",
+    "catchPhrase": "The future depends on what you do today.",
+    "imageName": "https://static.timesofisrael.com/www/uploads/2012/11/495px-MKGandhi-1024x640.jpeg"
+},
+{
+    "id": 4,
+    "name": "Malcom X :",
+    "show": "History X",
+    "catchPhrase": "You can't separate peace from freedom because no one can be at peace unless he has his freedom.",
+    "imageName": "https://cdn.britannica.com/28/65228-050-07B4B9A2/Malcolm-X.jpg"
+},
+{
+    "id": 5,
+    "name": "Jesus : ",
+    "show": "The Bible",
+    "catchPhrase": "Forgive them father, For they know not what they do. ",
+    "imageName": "https://marvel-b1-cdn.bc0a.com/f00000000039764/www1.cbn.com/sites/default/files/styles/image_xl_640x480/public/jesus-christ-cross_SI_3.jpg?itok=4k0mH-Us"
+},
+{
+    "id": 6,
+    "name": "Rosa Parks :",
+    "show": "Bus Inequity",
+    "catchPhrase": "No, the only tired I was, was tired of giving in.",
+    "imageName": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqBHIuHT5KV9OazQf6FYHB7XMbQ7vSbkuzag&usqp=CAU"
+},
+{
+    "id": 7,
+    "name": "Bob Barker :",
+    "show": "The Price is Right",
+    "catchPhrase": "The Price Is Right ",
+    "imageName": "https://m.media-amazon.com/images/I/71ZhjtiC8KL._AC_SL1500_.jpg"
+},
+{
+    "id": 8,
+    "name": "George Washington : ",
+    "show": "President Number 1",
+    "catchPhrase": " It is better to offer no excuse than a bad one.",
+    "imageName": "https://bloximages.newyork1.vip.townnews.com/richmond.com/content/tncms/assets/v3/editorial/a/3d/a3db4a6b-caa8-5d6c-bed9-5a5a84f58b6d/5fc7f7311abdb.image.jpg?resize=1200%2C1532"
+},
+{
+    "id": 9,
+    "name": "Albert einstein : ",
+    "show": "Science Daily" ,
+    "catchPhrase": "Imagination is more important than knowledge",
+    "imageName": "https://www.thoughtco.com/thmb/SYMV32cNDL8SvOPwy9FQBV2ClYA=/3801x3801/smart/filters:no_upscale()/portrait-of-albert-einstein-114339176-58b9ce465f9b58af5ca7ee83.jpg"
+}
+]
